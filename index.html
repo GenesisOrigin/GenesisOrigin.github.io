@@ -97,7 +97,7 @@
 								nature. Existing approaches have used reinforcement learning to unify the optimization of morphology and control but
 								still face the drawback of inefficient message and reward delivery. To address this problem, we propose an end-to-end
 								reinforcement learning framework, Genesis, that optimizes message and reward delivery during co-design. Genesis utilizes
-								(1) a morphology self-attention architecture to achieve zero-delay message delivery during optimization, with our
+								(1) a morphology self-attention architecture to achieve zero-decay message delivery during optimization, with our
 								proposed topology-aware positional encoding to achieve message localization and morphological knowledge sharing; (2) a
 								temporal credit assignment mechanism that ensures an agent receives balanced reward signals in both the morphology
 								design and control phases. Experiments across various tasks demonstrate Genesis's superiority over previous methods in
@@ -158,7 +158,7 @@
 							<img src="static/images/framework.png" alt="" />
 							<p>
 								Genesis is an RL-based framework for embodiment co-design, which optimizes morphology and control simultaneously. It
-								achieves centralized, zero-delayed message processing based on limb-level self-attention, message localization via
+								achieves centralized, zero-decay message processing based on limb-level self-attention, message localization via
 								Topology Position Encoding, and enhanced temporal credit assignment for balanced reward signals.
 							</p>
 						</div>
