@@ -39,7 +39,7 @@
 				<div class="container is-max-desktop">
 					<div class="columns is-centered">
 						<div class="column has-text-centered">
-							<h1 class="title is-1 publication-title">Genesis: Embodiment Co-Design via Efficient Message and Reward Delivery</h1>
+							<h1 class="title is-1 publication-title">Genesis: Advancing Towards Efficient Embodiment Co-Design</h1>
 							<!-- <div style="margin-bottom: 20px">
 								<span class="link-block">
 									<span class="icon is-large">
@@ -92,16 +92,10 @@
 						<h2 class="title is-3">Abstract</h2>
 						<div class="content has-text-justified">
 							<p>
-								Embodiment co-design aims to optimize a robot's morphology and control simultaneously, enhancing its environmental
-								adaptability. However, this task faces significant challenges due to its vast search space and bi-level optimization
-								nature. Existing approaches have used reinforcement learning to unify the optimization of morphology and control but
-								still face the drawback of inefficient message and reward delivery. To address this problem, we propose an end-to-end
-								reinforcement learning framework, Genesis, that optimizes message and reward delivery during co-design. Genesis utilizes
-								(1) a morphology self-attention architecture to achieve zero-decay message delivery during optimization, with our
-								proposed topology-aware positional encoding to achieve message localization and morphological knowledge sharing; (2) a
-								temporal credit assignment mechanism that ensures an agent receives balanced reward signals in both the morphology
-								design and control phases. Experiments across various tasks demonstrate Genesis's superiority over previous methods in
-								terms of both convergence speed and task performance.
+								Embodiment co-design aims to optimize a robot's morphology and control simultaneously. 
+								Previous research has demonstrated its  potential for generating environment-adaptive robots.
+								However, the problem is inherently combinatorial and the morphology is changeable and agnostic in its vast search space, optimization efficiency remains a hard nut to crack. 
+								We prove that the inefficient morphology representation and unbalanced reward signals between the design and control stages are key obstacles against efficiency. In order to advance towards efficient embodiment co-design to unlock its full potential, we propose \textit{Genesis}, which utilizes (1) a novel topology-aware self-attention architecture, enabling efficient morphology representation while enjoying lightweight model sizes; (2) a temporal credit assignment mechanism for co-design that ensures balanced reward signals for optimization. With our simple-yet-efficient methods, Genesis achieves average 60.52% performance improvement against the strongest baselines.
 							</p>
 						</div>
 					</div>
